@@ -1,25 +1,25 @@
 class PrettyLog < Formula
   desc "Parses JSON logs and prints them in a clean, colorized view for humans."
   homepage "https://github.com/blesswinsamuel/pretty-log"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/blesswinsamuel/pretty-log/releases/download/v0.1.1/pretty-log-aarch64-apple-darwin.tar.xz"
-      sha256 "9d3462b8dc8a92cb06b00d593e53e5225fc8012316e2d525b70f65c1a1ee4cba"
+      url "https://github.com/blesswinsamuel/pretty-log/releases/download/v0.2.0/pretty-log-aarch64-apple-darwin.tar.xz"
+      sha256 "88ee60588971b6722fb2cb76c28a3a6235ca2dd3eb69fa7944ade5fbca64fde6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/blesswinsamuel/pretty-log/releases/download/v0.1.1/pretty-log-x86_64-apple-darwin.tar.xz"
-      sha256 "620c7bcfbd1547511bf5b2842fbc2984587c430931dc9bfddd57d9581f6f5e93"
+      url "https://github.com/blesswinsamuel/pretty-log/releases/download/v0.2.0/pretty-log-x86_64-apple-darwin.tar.xz"
+      sha256 "fefefc6982790889fbd2ec48e4c8d798c2716d4611f4401ab1def3d12d68468a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/blesswinsamuel/pretty-log/releases/download/v0.1.1/pretty-log-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "aea1a19c0662e0475f3a4bd26ff3559d5acbaa94c424edbd74d955dc7e181338"
+      url "https://github.com/blesswinsamuel/pretty-log/releases/download/v0.2.0/pretty-log-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b7228af651f3d6f7bdf832f40e933f8883b4b4c71dc2c679fa3f913ede9c64ee"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/blesswinsamuel/pretty-log/releases/download/v0.1.1/pretty-log-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "cf08ffd1b29b38d4a4757daba2aeb5d6097897ac714dc7e29c913b3ff7d22ddb"
+      url "https://github.com/blesswinsamuel/pretty-log/releases/download/v0.2.0/pretty-log-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "bd4c8f5b3293dadc9bb19a6701f698d31db89fe6c32eeaa18b34a045a6a9d202"
     end
   end
   license "MIT"
